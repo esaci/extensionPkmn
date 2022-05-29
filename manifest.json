@@ -1,0 +1,19 @@
+{
+	"name": "PokeClickerScript",
+	"description": "Auto Play Pokeclicker",
+	"version": "0.1",
+	"manifest_version": 3,
+	"action" : {
+		"default_popup": "PokeclickerScript.html",
+		"default_icon": "botImage.png" 
+	},
+	"commands": {
+		"_execute_action": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+F",
+				"mac" : "MacCtrl+Shift+F"
+			},
+			"description": "Opens PokeclickerScript.html"
+		}
+	}
+}
